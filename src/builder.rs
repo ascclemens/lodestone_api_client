@@ -1,6 +1,8 @@
-use crate::{LodestoneApi, error::*};
-
-use lodestone_api::routes::RouteResult;
+use crate::{
+  LodestoneApi,
+  error::*,
+  models::RouteResult,
+};
 
 use log::debug;
 

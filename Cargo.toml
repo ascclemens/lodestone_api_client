@@ -6,8 +6,6 @@ edition = "2018"
 
 [dependencies]
 failure = "0.1"
-lodestone_api = { git = "https://github.com/jkcclemens/lodestone_api" }
-lodestone_parser = { git = "https://github.com/jkcclemens/lodestone_parser" }
 log = "0.4"
 reqwest = "0.8"
 serde = "1"
@@ -25,3 +23,7 @@ features = ["serde"]
 version = "1.0.1"
 default-features = false
 features = ["worlds", "with_serde"]
+
+[dependencies.lodestone_parser]
+git = "https://github.com/jkcclemens/lodestone_parser"
+default-features = false
