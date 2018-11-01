@@ -48,7 +48,7 @@ impl LodestoneApi {
   }
 
   crate fn url(&self, path: &str) -> Url {
-    Url::from_str("https://lodestone-api.dokku.kitteh.space").unwrap().join(path).unwrap()
+    Url::from_str("https://lodestone.info").unwrap().join(path).unwrap()
   }
 
   /// Search for a character.
