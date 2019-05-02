@@ -27,3 +27,4 @@ features = ["worlds", "with_serde"]
 [dependencies.lodestone_parser]
 git = "https://github.com/jkcclemens/lodestone_parser"
 default-features = false
+features = ["with_serde"]
